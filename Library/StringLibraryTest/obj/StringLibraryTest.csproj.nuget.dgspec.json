@@ -1,0 +1,134 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/whitejuke/Desktop/Staj/Library/StringLibraryTest/StringLibraryTest.csproj": {}
+  },
+  "projects": {
+    "/home/whitejuke/Desktop/Staj/Library/StringLibrary/StringLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/whitejuke/Desktop/Staj/Library/StringLibrary/StringLibrary.csproj",
+        "projectName": "StringLibrary",
+        "projectPath": "/home/whitejuke/Desktop/Staj/Library/StringLibrary/StringLibrary.csproj",
+        "packagesPath": "/home/whitejuke/.nuget/packages/",
+        "outputPath": "/home/whitejuke/Desktop/Staj/Library/StringLibrary/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/whitejuke/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/dotnet6-6.0.108/sdk/6.0.108/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/whitejuke/Desktop/Staj/Library/StringLibraryTest/StringLibraryTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/whitejuke/Desktop/Staj/Library/StringLibraryTest/StringLibraryTest.csproj",
+        "projectName": "StringLibraryTest",
+        "projectPath": "/home/whitejuke/Desktop/Staj/Library/StringLibraryTest/StringLibraryTest.csproj",
+        "packagesPath": "/home/whitejuke/.nuget/packages/",
+        "outputPath": "/home/whitejuke/Desktop/Staj/Library/StringLibraryTest/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/whitejuke/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/whitejuke/Desktop/Staj/Library/StringLibrary/StringLibrary.csproj": {
+                "projectPath": "/home/whitejuke/Desktop/Staj/Library/StringLibrary/StringLibrary.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.2.7, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.7, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.11.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/dotnet6-6.0.108/sdk/6.0.108/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

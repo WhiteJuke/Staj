@@ -1,7 +1,7 @@
 ﻿namespace UtilityLibraries;
-public class StringLibrary
+public static class StringLibrary
 {
-    public bool StartsWithUpper(this string? str)
+    public static bool StartsWithUpper(this string? str)
     {
         if (string.IsNullOrWhiteSpace(str))
         {

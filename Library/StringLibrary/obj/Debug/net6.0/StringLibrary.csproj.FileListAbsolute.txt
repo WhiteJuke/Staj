@@ -1,0 +1,12 @@
+/home/whitejuke/Desktop/Staj/Library/StringLibrary/bin/Debug/net6.0/StringLibrary.deps.json
+/home/whitejuke/Desktop/Staj/Library/StringLibrary/bin/Debug/net6.0/StringLibrary.dll
+/home/whitejuke/Desktop/Staj/Library/StringLibrary/bin/Debug/net6.0/ref/StringLibrary.dll
+/home/whitejuke/Desktop/Staj/Library/StringLibrary/bin/Debug/net6.0/StringLibrary.pdb
+/home/whitejuke/Desktop/Staj/Library/StringLibrary/obj/Debug/net6.0/StringLibrary.csproj.AssemblyReference.cache
+/home/whitejuke/Desktop/Staj/Library/StringLibrary/obj/Debug/net6.0/StringLibrary.GeneratedMSBuildEditorConfig.editorconfig
+/home/whitejuke/Desktop/Staj/Library/StringLibrary/obj/Debug/net6.0/StringLibrary.AssemblyInfoInputs.cache
+/home/whitejuke/Desktop/Staj/Library/StringLibrary/obj/Debug/net6.0/StringLibrary.AssemblyInfo.cs
+/home/whitejuke/Desktop/Staj/Library/StringLibrary/obj/Debug/net6.0/StringLibrary.csproj.CoreCompileInputs.cache
+/home/whitejuke/Desktop/Staj/Library/StringLibrary/obj/Debug/net6.0/StringLibrary.dll
+/home/whitejuke/Desktop/Staj/Library/StringLibrary/obj/Debug/net6.0/ref/StringLibrary.dll
+/home/whitejuke/Desktop/Staj/Library/StringLibrary/obj/Debug/net6.0/StringLibrary.pdb
