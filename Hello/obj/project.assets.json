@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/whitejuke/Desktop/Staj/HelloWorld/HelloWorld.csproj",
-      "projectName": "HelloWorld",
-      "projectPath": "/home/whitejuke/Desktop/Staj/HelloWorld/HelloWorld.csproj",
+      "projectUniqueName": "/home/whitejuke/Desktop/Staj/Hello/Hello.csproj",
+      "projectName": "Hello",
+      "projectPath": "/home/whitejuke/Desktop/Staj/Hello/Hello.csproj",
       "packagesPath": "/home/whitejuke/.nuget/packages/",
-      "outputPath": "/home/whitejuke/Desktop/Staj/HelloWorld/obj/",
+      "outputPath": "/home/whitejuke/Desktop/Staj/Hello/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/whitejuke/.nuget/NuGet/NuGet.Config"
