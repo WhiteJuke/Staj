@@ -30,5 +30,8 @@ app.UseAuthorization();
 
 app.MapControllers();
 
+app.MapControllerRoute(
+    name:"default",pattern:"{controller=api}/{action=TodoItem}/{id?}");
+
 app.Run();
 
