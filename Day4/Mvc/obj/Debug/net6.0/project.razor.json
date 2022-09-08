@@ -16298,13 +16298,33 @@
   "RootNamespace": "Mvc",
   "Documents": [
     {
-      "FilePath": "/home/whitejuke/Desktop/Staj/Day4/Mvc/Views/HelloWorldController/Index.cshtml",
-      "TargetPath": "Views\\HelloWorldController\\Index.cshtml",
+      "FilePath": "/home/whitejuke/Desktop/Staj/Day4/Mvc/Views/HelloWorld/Welcome.cshtml",
+      "TargetPath": "Views\\HelloWorld\\Welcome.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/whitejuke/Desktop/Staj/Day4/Mvc/Views/Videos/Delete.cshtml",
+      "TargetPath": "Views\\Videos\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/whitejuke/Desktop/Staj/Day4/Mvc/Views/Videos/Index.cshtml",
+      "TargetPath": "Views\\Videos\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
       "FilePath": "/home/whitejuke/Desktop/Staj/Day4/Mvc/Views/Shared/_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/whitejuke/Desktop/Staj/Day4/Mvc/Views/Videos/Edit.cshtml",
+      "TargetPath": "Views\\Videos\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/whitejuke/Desktop/Staj/Day4/Mvc/Views/HelloWorld/Index.cshtml",
+      "TargetPath": "Views\\HelloWorld\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16318,6 +16338,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/whitejuke/Desktop/Staj/Day4/Mvc/Views/Videos/Details.cshtml",
+      "TargetPath": "Views\\Videos\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/whitejuke/Desktop/Staj/Day4/Mvc/Views/_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
@@ -16325,6 +16350,11 @@
     {
       "FilePath": "/home/whitejuke/Desktop/Staj/Day4/Mvc/Views/Home/Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/whitejuke/Desktop/Staj/Day4/Mvc/Views/Videos/Create.cshtml",
+      "TargetPath": "Views\\Videos\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
