@@ -1,10 +1,14 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Mvc.Models;
-using Videos.Models;
+
+using Microsoft.Data.SqlClient;
+
 var builder = WebApplication.CreateBuilder(args);
+
+
 builder.Services.AddDbContext<VideosContext>(options =>
-    options.UseSqlite(builder.Configuration.GetConnectionString("VideosContext") ?? throw new InvalidOperationException("Connection string 'VideosContext' not found.")));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("VideosContext") ?? throw new InvalidOperationException("Connection string 'VideosContext' not found.")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
@@ -15,7 +19,6 @@ using (var scope = app.Services.CreateScope())
 {
     var services = scope.ServiceProvider;
 
-    SeedData.Initialize(services);
 }
 
 // Configure the HTTP request pipeline.

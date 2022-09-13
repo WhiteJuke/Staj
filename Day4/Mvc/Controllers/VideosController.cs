@@ -21,7 +21,9 @@ namespace Mvc.Controllers
         // GET: Videos
         public async Task<IActionResult> Index()
         {
-              return View(await _context.Videostats.ToListAsync());
+              return _context.Videostats != null ? 
+                          View(await _context.Videostats.ToListAsync()) :
+                          Problem("Entity set 'VideosContext.Videostats'  is null.");
         }
 
         // GET: Videos/Details/5
@@ -154,7 +156,7 @@ namespace Mvc.Controllers
 
         private bool VideostatsExists(int id)
         {
-          return _context.Videostats.Any(e => e.Id == id);
+          return (_context.Videostats?.Any(e => e.Id == id)).GetValueOrDefault();
         }
     }
 }
