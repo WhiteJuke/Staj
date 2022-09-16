@@ -1,0 +1,30 @@
+      
+      host.docker.internal;
+      db
+      
+      
+      
+              command: 
+            exec --init-file /data/application/init.sql
+        volumes:
+            - .docker/init.sql:/docker-entrypoint-initdb.d/init.sql
+            
+COPY setup.sql setup.sql
+COPY setup_database.sh setup_database.sh
+COPY entrypoint.sh entrypoint.sh
+RUN chmod +x ./entrypoint.sh
+CMD /bin/bash ./entrypoint.sh
+
+
+ENTRYPOINT ["sh","./entrypoint.sh"]
+
+
+/opt/mssql/bin/sqlservr.sh & /usr/src/app/import-data.sh & 
+
+image: "mcr.microsoft.com/mssql/server:2017-latest"
+
+
+
+
+COPY setup.sql setup.sql
+COPY setup_database.sh setup_database.sh

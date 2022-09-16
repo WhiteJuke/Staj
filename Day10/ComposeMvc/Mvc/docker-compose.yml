@@ -1,0 +1,25 @@
+version: "3.9"
+services:
+    webapp:
+        build: .
+        ports:
+            - "8000:80"
+        depends_on:
+            - videoscontext
+    videoscontext:
+        build: ./mssql_database
+        environment:
+            ACCEPT_EULA: "Y"
+            SA_PASSWORD: "123456Aa@"
+            SSQL_TCP_PORT: "1433"
+            Trusted_Connection: "false"
+            MultipleActiveResultSets: "true"
+            TrustServerCertificate: "true"
+            Pooling: "true"
+            TZ: "UTC"
+        ports:
+            - "1433:1433"
+        volumes:
+            - database-data:/var/opt/mssql
+volumes:
+    database-data:
